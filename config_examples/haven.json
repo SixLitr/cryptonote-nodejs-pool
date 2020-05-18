@@ -113,7 +113,7 @@
 		"enabled": true,
 		"interval": 1800,
 		"maxAddresses": 50,
-		"mixin": 5,
+		"ringSize": 11,
 		"priority": 0,
 		"transferFee": 5000000000,
 		"dynamicTransferFee": true,
