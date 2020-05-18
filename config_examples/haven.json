@@ -10,7 +10,7 @@
 	"transactionExplorer": "https://explorer.havenprotocol.org/tx/{id}",
 	"daemonType": "default",
 	"cnAlgorithm": "cryptonight_heavy",
-	"cnVariant": null,
+	"cnVariant": 1
 	"cnBlobType": 0,
 
 	"logging": {
@@ -55,7 +55,7 @@
 			{
 				"port": 7777,
 				"difficulty": 500000,
-				"desc": "Cloud-mining / NiceHash"
+				"desc": "Farm Mining"
             },
 			{
 				"port": 8888,
@@ -112,7 +112,7 @@
 	"payments": {
 		"enabled": true,
 		"interval": 1800,
-		"maxAddresses": 50,
+		"maxAddresses": 30,
 		"ringSize": 11,
 		"priority": 0,
 		"transferFee": 5000000000,
@@ -127,9 +127,9 @@
 	"blockUnlocker": {
 		"enabled": true,
 		"interval": 30,
-		"depth": 60,
-		"poolFee": 0.8,
-		"devDonation": 0.2,
+		"depth": 30,
+		"poolFee": 0.777,
+		"devDonation": 0.0,
 		"networkFee": 0.0
 	},
 
