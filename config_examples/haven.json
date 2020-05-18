@@ -10,7 +10,7 @@
 	"transactionExplorer": "https://explorer.havenprotocol.org/tx/{id}",
 	"daemonType": "default",
 	"cnAlgorithm": "cryptonight_heavy",
-	"cnVariant": 1
+	"cnVariant": 1,
 	"cnBlobType": 0,
 
 	"logging": {
