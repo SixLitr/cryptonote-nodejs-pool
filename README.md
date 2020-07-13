@@ -171,8 +171,9 @@ Clone the repository and run `npm update` for all the dependencies to be install
 git clone https://github.com/SixLitr/cryptonote-nodejs-pool.git pool
 cd pool
 npm update
-
-/* For Haven be sure to include the path to your haven-offshore directory or npm update will fail */
+```
+* For Haven: You must include the path to your haven-offshore directory or npm update will fail
+```bash
 HAVENDIR=<path-to-haven-offshore> npm update
 ```
 
