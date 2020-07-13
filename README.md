@@ -100,13 +100,7 @@ Community / Support
 
 #### Pools Using This Software
 
-* https://imaginary.stream/
-* https://graft.anypool.net/
-* https://www.dark-mine.su/
-* http://itns.proxpool.com/
-* https://bytecoin.pt/
-* https://pool.leviar.io/
-* https://pool.croatpirineus.cat/
+* http://xhvpool.dlinodes.com/
 
 Usage
 ===
