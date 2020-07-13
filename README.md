@@ -170,7 +170,9 @@ Clone the repository and run `npm update` for all the dependencies to be install
 ```bash
 git clone https://github.com/SixLitr/cryptonote-nodejs-pool.git pool
 cd pool
+npm update
 
+/* For Haven be sure to include the path to your haven-offshore directory or npm update will fail */
 HAVENDIR=<path-to-haven-offshore> npm update
 ```
 
@@ -184,10 +186,10 @@ Explanation for each field:
 "poolHost": "your.pool.host",
 
 /* Used for storage in redis so multiple coins can share the same redis instance. */
-"coin": "graft", // Must match the parentCoin variable in config.js
+"coin": "haven", // Must match the parentCoin variable in config.js
 
 /* Used for front-end display */
-"symbol": "GRFT",
+"symbol": "XHV",
 
 /* Minimum units in a single coin, see COIN constant in DAEMON_CODE/src/cryptonote_config.h */
 "coinUnits": 10000000000,
@@ -209,7 +211,7 @@ Explanation for each field:
    Supported variants for "cryptonight": 0 (Original), 1 (Monero v7), 3 (Stellite / XTL)
    Supported variants for "cryptonight_light": 0 (Original), 1 (Aeon v7), 2 (IPBC)
    Supported blob types: 0 (Cryptonote), 1 (Forknote v1), 2 (Forknote v2), 3 (Cryptonote v2 / Masari) */
-"cnAlgorithm": "cryptonight",
+"cnAlgorithm": "cryptonight_heavy",
 "cnVariant": 1,
 "cnBlobType": 0,
 "includeHeight":false, /*true to include block.height in job to miner*/
